@@ -99,7 +99,8 @@ public class SmartDialPrefix {
         } else if (locale.equals("IL")) {
             mMap = new HebrewSmartDialMap();
         } else {
-            mMap = new LatinSmartDialMap();
+            //mMap = new LatinSmartDialMap();
+            mMap = new PinyinSmartDialMap();
         }
 
         sNanpInitialized = true;
